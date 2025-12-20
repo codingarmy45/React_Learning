@@ -12,6 +12,7 @@ import Login from './components/09_useContext/Login'
 import { useContext } from 'react'
 import AuthContext from './components/09_useContext/AuthContext'
 import Pagination from './components/10_Pagination/Pagination'
+import Store from './components/10_Pagination/Store'
 const App = () => {
   const AuthContexts = useContext(AuthContext);
   return (
@@ -27,7 +28,8 @@ const App = () => {
       {/* <PropDrilling/> */}
       {/* <Login/>
       <p>{AuthContexts.names}</p> */}
-      <Pagination/>
+      {/* <Pagination/> */}
+      <Store/>
       
     </div>
   )
