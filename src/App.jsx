@@ -8,7 +8,11 @@ import Movie from './components/05_MovieSearch/Movie'
 import Notes from './components/06_Notes_App/Notes'
 import LocalStorage from './components/07_Local_Stroage/LocalStorage'
 import PropDrilling from './components/08_Prop_Drilling/PropDrilling'
+import Login from './components/09_useContext/Login'
+import { useContext } from 'react'
+import AuthContext from './components/09_useContext/AuthContext'
 const App = () => {
+  const AuthContexts = useContext(AuthContext);
   return (
     <div>
       {/* <Todo/> */}
@@ -19,7 +23,10 @@ const App = () => {
       {/* <Movie/> */}
       {/* <Notes/> */}
       {/* <LocalStorage/> */}
-      <PropDrilling/>
+      {/* <PropDrilling/> */}
+      <Login/>
+      <h1>HII</h1>
+      <p>{AuthContexts.names}</p>
       
     </div>
   )

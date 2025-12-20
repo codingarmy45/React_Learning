@@ -11,5 +11,5 @@ const PropDrilling = () => {
 export default PropDrilling
 
 /*
-! PropDrilling => Login => Dashboard => Profile
+! App => PropDrilling => Login => Dashboard => Profile
 */ 
