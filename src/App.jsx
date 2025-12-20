@@ -11,6 +11,7 @@ import PropDrilling from './components/08_Prop_Drilling/PropDrilling'
 import Login from './components/09_useContext/Login'
 import { useContext } from 'react'
 import AuthContext from './components/09_useContext/AuthContext'
+import Pagination from './components/10_Pagination/Pagination'
 const App = () => {
   const AuthContexts = useContext(AuthContext);
   return (
@@ -24,9 +25,9 @@ const App = () => {
       {/* <Notes/> */}
       {/* <LocalStorage/> */}
       {/* <PropDrilling/> */}
-      <Login/>
-      <h1>HII</h1>
-      <p>{AuthContexts.names}</p>
+      {/* <Login/>
+      <p>{AuthContexts.names}</p> */}
+      <Pagination/>
       
     </div>
   )
