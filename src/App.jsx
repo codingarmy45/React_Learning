@@ -1,6 +1,5 @@
 import React from 'react'
 import Todo from './components/Todo'
-import Counter from './components/01_Counter/Counter'
 import Calculator from './components/02_Calculator/Calculator'
 import Weather from './components/04_Weather/Weather'
 import Toggle from './components/03_Toggle/Toggle'
@@ -13,7 +12,8 @@ import { useContext } from 'react'
 import AuthContext from './components/09_useContext/AuthContext'
 import Pagination from './components/10_Pagination/Pagination'
 import Store from './components/10_Pagination/Store'
-import UseEffect from './Hooks/01_useEffect/Counter'
+import Counter from './Hooks/01_useEffect/Counter'
+import WindowResizeTracker from './Hooks/01_useEffect/WindowResizeTracker'
 const App = () => {
   const AuthContexts = useContext(AuthContext);
   return (
@@ -33,7 +33,8 @@ const App = () => {
       {/* <Store/> */}
 
       {/* Hooks */}
-      <UseEffect/>
+      {/* <Counter/> */}
+      <WindowResizeTracker/>
       
     </div>
   )
