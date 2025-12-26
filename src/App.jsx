@@ -18,6 +18,8 @@ import Timer from './Hooks/01_useEffect/Timer'
 import ApiFetching from './Hooks/01_useEffect/ApiFetching'
 import SearchwithDebounce from './Hooks/01_useEffect/SearchwithDebounce'
 import Toggle from './Hooks/01_useEffect/Toggle'
+import Upload from './components/11_FileUpload/Upload'
+import FileUpload from './components/11_FileUpload/FileUpload'
 const App = () => {
   const AuthContexts = useContext(AuthContext);
   return (
@@ -35,6 +37,8 @@ const App = () => {
       <p>{AuthContexts.names}</p> */}
       {/* <Pagination/> */}
       {/* <Store/> */}
+      {/* <Upload/> */}
+      <FileUpload/>
 
 
       {/* Hooks */}
@@ -43,7 +47,7 @@ const App = () => {
       {/* <Timer/> */}
       {/* <ApiFetching/> */}
       {/* <SearchwithDebounce/> */}
-      <Toggle/>
+      {/* <Toggle/> */}
       
     </div>
   )
