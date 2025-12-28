@@ -20,6 +20,8 @@ import SearchwithDebounce from './Hooks/01_useEffect/SearchwithDebounce'
 import Toggle from './Hooks/01_useEffect/Toggle'
 import Upload from './components/11_FileUpload/Upload'
 import FileUpload from './components/11_FileUpload/FileUpload'
+import SingleFile from './components/11_FileUpload/SingleFile'
+import MultipleFile from './components/11_FileUpload/server/MultipleFile'
 const App = () => {
   const AuthContexts = useContext(AuthContext);
   return (
@@ -38,7 +40,9 @@ const App = () => {
       {/* <Pagination/> */}
       {/* <Store/> */}
       {/* <Upload/> */}
-      <FileUpload/>
+      {/* <FileUpload/> */}
+      {/* <SingleFile/> */}
+      <MultipleFile/>
 
 
       {/* Hooks */}
