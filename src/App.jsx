@@ -23,6 +23,7 @@ import FileUpload from './components/11_FileUpload/FileUpload'
 import SingleFile from './components/11_FileUpload/SingleFile'
 import MultipleFile from './components/11_FileUpload/MultipleFile'
 import LazyLoading from './components/12_LazyLoading/LazyLoading'
+import MulterFileUpload from './components/11_FileUpload/MulterFileUpload'
 const App = () => {
   const AuthContexts = useContext(AuthContext);
   return (
@@ -45,6 +46,8 @@ const App = () => {
       {/* <SingleFile/> */}
       {/* <MultipleFile/> */}
       <LazyLoading/>
+      <MulterFileUpload/>
+
 
       {/* Hooks */}
       {/* <Counter/> */}
