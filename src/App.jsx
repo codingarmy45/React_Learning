@@ -22,6 +22,7 @@ import Upload from './components/11_FileUpload/Upload'
 import FileUpload from './components/11_FileUpload/FileUpload'
 import SingleFile from './components/11_FileUpload/SingleFile'
 import MultipleFile from './components/11_FileUpload/MultipleFile'
+import LazyLoading from './components/12_LazyLoading/LazyLoading'
 import MulterFileUpload from './components/11_FileUpload/MulterFileUpload'
 import Lifecycle from './components/12_ReactLifecycle/Lifecycle'
 const App = () => {
@@ -47,6 +48,8 @@ const App = () => {
       {/* <MultipleFile/> */}
       {/* <MulterFileUpload/> */}
       <Lifecycle/>
+      <LazyLoading/>
+      <MulterFileUpload/>
 
 
       {/* Hooks */}
