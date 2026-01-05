@@ -23,6 +23,7 @@ import FileUpload from './components/11_FileUpload/FileUpload'
 import SingleFile from './components/11_FileUpload/SingleFile'
 import MultipleFile from './components/11_FileUpload/MultipleFile'
 import MulterFileUpload from './components/11_FileUpload/MulterFileUpload'
+import Lifecycle from './components/12_ReactLifecycle/Lifecycle'
 const App = () => {
   const AuthContexts = useContext(AuthContext);
   return (
@@ -44,7 +45,8 @@ const App = () => {
       {/* <FileUpload/> */}
       {/* <SingleFile/> */}
       {/* <MultipleFile/> */}
-      <MulterFileUpload/>
+      {/* <MulterFileUpload/> */}
+      <Lifecycle/>
 
 
       {/* Hooks */}
